@@ -1,2 +1,0 @@
-# shrirang.github.io
-Portfolio
