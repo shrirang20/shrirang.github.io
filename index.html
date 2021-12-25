@@ -55,7 +55,10 @@
       <div class="desktop-menu-logo">
         <a href="https://shrirang20.github.io/shrirang.github.io/"
           ><img
-            src="https://shrirang20.github.io/shrirang.github.io/images/LogoS.svg"
+	    class="img-fluid"
+            src="/images/LogoS.svg"
+            alt="Shrirang"
+            id="desktop-logo"
         /></a>
       </div>
       <ul class="desktop-menu list-inline mb-0" id="desktop-menu">
@@ -451,6 +454,15 @@
     <span id="current-year"></span>
   </div>
 </div>
+
+	< footer>
+  <p>
+<?php
+    echo "You are the", $access_number, " visitor on this site!";
+    ?>
+</p>
+</footer>
+
 <!-- JS Plugins --> 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
